@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <!-- TODO: Replace with your name -->
+    <title>Joy</title>
+
+    <!-- TODO: Replace "XX" with your initials -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='70' fill='%23a67c52' font-weight='bold'>XX</text></svg>">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<header class="site-header">
+    <a href="#" class="brand">
+        <span class="brand-mark">◆</span>
+        <!-- TODO: Your name or brand -->
+        <span class="brand-name">Portfolio</span>
+    </a>
+    <nav class="site-nav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Work</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- ==================== Home(split layout) ==================== -->
+<section class="hero" id="home">
+    <div class="hero-inner">
+        <div class="hero-text">
+            <span class="eyebrow">— Portfolio 2026</span>
+            <h1 class="hero-title">
+                Hi, I'm <em>JOhn Okiru</em>.<br>
+                I build <span class="typed-wrap"><span class="text"></span></span>
+            </h1>
+            <!-- TODO: your tagline -->
+            <p class="hero-lead">
+                I'm a passionate web developer based in Nairobi , specializing in creating engaging and user-friendly digital experiences.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">See my work <i class='bx bx-right-arrow-alt'></i></a>
+                <a href="#contact" class="btn btn-ghost">Get in touch</a>
+            </div>
+            <div class="hero-socials">
+                <!-- TODO: your links -->
+                <a href="https://github.com/[your-username]" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/[your-username]/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://wa.me/[your-number]" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <!-- TODO: your photo -->
+            <div class="hero-frame">
+                <img src="images/[your-photo].png" alt="[Your Name]">
+            </div>
+            <div class="hero-stamp">Available for<br>freelance</div>
+        </div>
+    </div>
+    <div class="hero-rule"></div>
+</section>
+
+<!-- ==================== ABOUT ==================== -->
+<section class="about-section" id="about">
+    <div class="section-head">
+        <span class="section-num">01</span>
+        <h2 class="section-title">About <em>me</em></h2>
+    </div>
+    <div class="about-grid">
+        <div class="about-side">
+            <!-- TODO: your roles -->
+            <ul class="role-list">
+                <li>[Role 1]</li>
+                <li>[Role 2]</li>
+                <li>[Role 3]</li>
+            </ul>
+        </div>
+        <div class="about-body">
+            <!-- TODO: your bio -->
+            <p class="about-lead">
+                [A 1–2 sentence lead-in about who you are.]
+            </p>
+            <p>
+                [Paragraph 2 — background, what you do, what you care about.]
+            </p>
+            <p>
+                [Optional paragraph 3 — a personal note or what you're currently learning.]
+            </p>
+            <a href="#contact" class="btn btn-primary">Let's talk <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== SERVICES (numbered list, not cards) ==================== -->
+<section class="services-section" id="services">
+    <div class="section-head">
+        <span class="section-num">02</span>
+        <h2 class="section-title">What I <em>do</em></h2>
+    </div>
+    <div class="services-list">
+        <!-- TODO: replace each service -->
+        <article class="service-row">
+            <span class="service-index">i.</span>
+            <div class="service-main">
+                <h3>Front End development</h3>
+                <p>[Short description of service 1.]</p>
+            </div>
+            <i class='bx bx-chart service-icon'></i>
+        </article>
+        <article class="service-row">
+            <span class="service-index">ii.</span>
+            <div class="service-main">
+                <h3>[Service 2 Title]</h3>
+                <p>[Short description of service 2.]</p>
+            </div>
+            <i class='bx bx-code-alt service-icon'></i>
+        </article>
+        <article class="service-row">
+            <span class="service-index">iii.</span>
+            <div class="service-main">
+                <h3>[Service 3 Title]</h3>
+                <p>[Short description of service 3.]</p>
+            </div>
+            <i class='bx bx-health service-icon'></i>
+        </article>
+    </div>
+</section>
+
+<!-- ==================== SKILLS (tabs + line bars, different look) ==================== -->
+<section class="skills-section" id="skills">
+    <div class="section-head">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Skills &amp; <em>tools</em></h2>
+    </div>
+    <div class="skills-grid">
+        <div class="skills-block">
+            <h3 class="skills-label">Technical</h3>
+            <!-- TODO: update names, icons, --val percentages -->
+            <ul class="bar-list">
+                <li><span>HTML</span><div class="bar"><i style="--val:90%"></i></div><b>90%</b></li>
+                <li><span>CSS</span><div class="bar"><i style="--val:80%"></i></div><b>80%</b></li>
+                <li><span>JavaScript</span><div class="bar"><i style="--val:70%"></i></div><b>70%</b></li>
+                <li><span>Python</span><div class="bar"><i style="--val:60%"></i></div><b>60%</b></li>
+                <li><span>React</span><div class="bar"><i style="--val:50%"></i></div><b>50%</b></li>
+            </ul>
+        </div>
+        <div class="skills-block">
+            <h3 class="skills-label">Soft skills</h3>
+            <!-- TODO: update names and --val -->
+            <ul class="bar-list">
+                <li><span>Creativity</span><div class="bar"><i style="--val:90%"></i></div><b>90%</b></li>
+                <li><span>Communication</span><div class="bar"><i style="--val:85%"></i></div><b>85%</b></li>
+                <li><span>Problem solving</span><div class="bar"><i style="--val:88%"></i></div><b>88%</b></li>
+                <li><span>Teamwork</span><div class="bar"><i style="--val:92%"></i></div><b>92%</b></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== PROJECTS ==================== -->
+<section class="projects-section" id="projects">
+    <div class="section-head">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Selected <em>work</em></h2>
+    </div>
+    <div class="projects-grid" id="projectsGrid"></div>
+</section>
+
+<!-- ==================== CONTACT ==================== -->
+<section class="contact-section" id="contact">
+    <div class="section-head">
+        <span class="section-num">05</span>
+        <h2 class="section-title">Say <em>hello</em></h2>
+    </div>
+    <div class="contact-grid">
+        <div class="contact-info">
+            <p class="contact-lead">
+                [Short invitation — e.g. "Have a project or just want to chat? Drop me a line."]
+            </p>
+            <ul class="contact-list">
+                <li><i class='bx bx-envelope'></i><span>[your.email@example.com]</span></li>
+                <li><i class='bx bx-phone'></i><span>[+000 000 000 000]</span></li>
+                <li><i class='bx bx-map'></i><span>[Your City, Country]</span></li>
+            </ul>
+        </div>
+        <div class="contact-form">
+            <form id="directEmailForm">
+                <input type="text" id="senderName" placeholder="Your name" required>
+                <input type="email" id="senderEmail" placeholder="Your email" required>
+                <textarea id="messageBody" rows="4" placeholder="Your message…" required></textarea>
+                <button type="submit" class="btn btn-primary">Send message <i class='bx bx-right-arrow-alt'></i></button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <p>© [Year] [Your Name] — Built with care.</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
